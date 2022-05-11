@@ -12,13 +12,12 @@ body {
 }
 
 section {
-  padding: 40px 0;
+  padding: 40px 0 0 0;
 }
 
 //Navbar
-
 .navbar-wrapper {
-  background-color: grey;
+  background-color: #1d3557;
 }
 
 .navbar-items {
@@ -32,24 +31,53 @@ section {
 //Hero
 
 .hero-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 95vh;
-  .hero-intro {
-    font-size: 45px;
-  }
-  .name-title {
-    font-size: 100px;
-  }
-  .role-title {
-    font-size: 50px;
-    margin: 20px 0;
+  background-color: #f1faee;
+  color: #1d3557;
+
+  .image-and-title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 95vh;
+
+    .hero-text {
+      text-align: center;
+      position: relative;
+      padding-bottom: 20%;
+      .hero-intro {
+        font-size: 45px;
+      }
+      .name-title {
+        font-size: 100px;
+      }
+      .role-title {
+        font-size: 50px;
+        margin: 20px 0;
+      }
+
+      h3 {
+        font-size: 25px;
+        .text-transition {
+          margin: 0 auto;
+          text-align: center;
+        }
+      }
+    }
+    .profile-image {
+      height: 95%;
+      max-width: 100%;
+    }
   }
 
-  h3 {
-    font-size: 25px;
+  .contact-icons-hero {
+    position: absolute;
+    display: flex;
+    top: 40%;
+    flex-direction: column;
+    a {
+      color: #1d3557;
+      padding: 10px;
+    }
   }
 }
 
@@ -60,20 +88,10 @@ section {
     font-size: 50px;
   }
 
-  .image-and-intro {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    img {
-      border-radius: 50%;
-      height: 200px;
-      width: 200px;
-      margin-right: 50px;
-    }
-  }
-
   .brand-statement {
     max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .interests {
@@ -94,6 +112,8 @@ section {
 
 //Skills
 .skills-wrapper {
+  background-color: #f1faee;
+  color: #1d3557;
   h1 {
     text-align: center;
     font-size: 50px;
@@ -108,13 +128,21 @@ section {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(8, 1fr);
-    div {
+    .icon {
       text-align: center;
-      margin: 10px;
+      margin: 20px 10px;
       i {
         font-size: 50px;
         margin: 5px;
       }
+    }
+    #trello {
+      grid-column-start: 4;
+      grid-column-end: 5;
+    }
+
+    .icon:hover {
+      transform: scale(1.5);
     }
   }
 }
@@ -179,7 +207,10 @@ section {
 }
 
 //Experience
+
 .experience-wrapper {
+  background-color: #f1faee;
+  color: #1d3557;
   h1 {
     text-align: center;
     font-size: 50px;
@@ -189,10 +220,12 @@ section {
     justify-content: space-around;
     align-items: center;
     .experience-card {
+      background-color: #1d3557;
+      color: #f1faee;
       padding: 20px;
       margin: 10px;
       border: 2px solid black;
-      border-radius: 5px;
+      border-radius: 20px;
       width: 400px;
       height: 500px;
       .experience-card-header {
@@ -231,6 +264,5 @@ section {
 
 // Footer
 .footer {
-  background-color: grey;
   text-align: center;
 }

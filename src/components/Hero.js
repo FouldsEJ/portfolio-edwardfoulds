@@ -21,15 +21,38 @@ function Hero() {
 
   return (
     <section className='hero-section'>
-      <p className='hero-intro'>Hi, I&#39;m</p>
-      <h1 className='name-title'>Edward Foulds</h1>
-      <h2 className='role-title'>Junior Software Engineer</h2>
-      <h3>
-        <TextTransition
-          text={texts[index % texts.length]}
-          springConfig={presets.gentle}
+      <div className='contact-icons-hero'>
+        <a href='https://github.com/FouldsEJ'>
+          <i className='fa-brands fa-3x fa-github'></i>
+        </a>
+        <a
+          href='https://linkedin.com/in/edwardfoulds
+'
+        >
+          <i className='fa-brands fa-3x fa-linkedin'></i>
+        </a>
+        <a href='mailto:edward.j.foulds@gmail.com'>
+          <i className='fa-solid  fa-3x fa-envelope'></i>
+        </a>
+      </div>
+      <div className='image-and-title'>
+        <img
+          src='https://res.cloudinary.com/efoulds24/image/upload/v1652282582/EF_-_NYC-removebg_yl6keq.png'
+          alt='Edward Foulds'
+          className='profile-image'
         />
-      </h3>
+        <div className='hero-text'>
+          <p className='hero-intro'>Hi, I&#39;m</p>
+          <h1 className='name-title'>Edward Foulds</h1>
+          <h2 className='role-title'>Junior Software Engineer</h2>
+          <h3>
+            <TextTransition
+              text={texts[index % texts.length]}
+              springConfig={presets.gentle}
+            />
+          </h3>
+        </div>
+      </div>
     </section>
   );
 }

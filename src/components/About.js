@@ -4,35 +4,28 @@ function About() {
   return (
     <section className='about-section'>
       <h1>About</h1>
-      <div className='image-and-intro'>
-        <img
-          src='https://res.cloudinary.com/efoulds24/image/upload/v1652191454/profile-pic_vjpcyv.png'
-          alt='Edward Foulds'
-        />
 
-        <div className='brand-statement'>
-          <p>
-            After graduating with first className honours in Mechanical
-            Engineering, I worked at Jaguar Land Rover and developed my
-            engineering experience within the manufacturing industry. During
-            this time, I worked closely with the Software Development teams
-            deploying new technology into new cars. This built on my previous
-            experience of working with C++ at University.
-          </p>
-          <br />
-          <p>
-            Driven by my experiences with the Software Development teams at JLR,
-            I enrolled in General Assembly’s Software Engineering Immersive
-            course to develop my skills further. With an adaptable and
-            reflective approach to learning, I excelled and loved the program,
-            providing me with an excellent foundation for full stack
-            development. Able to work under pressure, positively collaborate
-            with people and armed with a keen sense of humour, I am now looking
-            for opportunities to join a team as a Junior developer, eager to
-            embrace responsibility and further develop my existing leadership
-            skills.
-          </p>
-        </div>
+      <div className='brand-statement'>
+        <p>
+          After graduating with first className honours in Mechanical
+          Engineering, I worked at Jaguar Land Rover and developed my
+          engineering experience within the manufacturing industry. During this
+          time, I worked closely with the Software Development teams deploying
+          new technology into new cars. This built on my previous experience of
+          working with C++ at University.
+        </p>
+        <br />
+        <p>
+          Driven by my experiences with the Software Development teams at JLR, I
+          enrolled in General Assembly’s Software Engineering Immersive course
+          to develop my skills further. With an adaptable and reflective
+          approach to learning, I excelled and loved the program, providing me
+          with an excellent foundation for full stack development. Able to work
+          under pressure, positively collaborate with people and armed with a
+          keen sense of humour, I am now looking for opportunities to join a
+          team as a Junior developer, eager to embrace responsibility and
+          further develop my existing leadership skills.
+        </p>
       </div>
       <div className='interests'>
         <div className='interest'>
