@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects() {
   return (
-    <section className='project-wrapper'>
+    <section id='projects' className='project-wrapper'>
       <h1>Projects</h1>
       <div className='projects-display-flex'>
         <div className='row-one'>

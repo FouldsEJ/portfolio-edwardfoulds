@@ -5,10 +5,23 @@ function Navbar() {
     <header>
       <nav className='navbar-wrapper'>
         <ul className='navbar-items'>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Skills</li>
-          <li>Contact</li>
+          <a href='#about'>
+            <li>About</li>
+          </a>
+
+          <a href='#skills'>
+            <li>Skills</li>
+          </a>
+          <a href='#projects'>
+            <li>Projects</li>
+          </a>
+          <a href='#experience'>
+            <li>Experience</li>
+          </a>
+
+          <a href='#contact'>
+            <li>Contact</li>
+          </a>
         </ul>
       </nav>
     </header>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Experience() {
   return (
-    <section className='experience-wrapper'>
+    <section className='experience-wrapper' id='experience'>
       <h1>Experience</h1>
 
       <div className='experience-display-flex'>

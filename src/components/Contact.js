@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <section className='contact-wrapper'>
+    <section className='contact-wrapper' id='contact'>
       <h2>Contact</h2>
       <p>
         Please feel free to check out my GitHub, LinkedIn or get in tough with

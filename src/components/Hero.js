@@ -6,7 +6,7 @@ function Hero() {
     '· General Assembly Graduate ·',
     '· 1st Class Honours Degree in Mechanical Engineering ·',
     '· 5 Years Manufacturing Engineering Experience ·',
-    '· Loves to travel ·',
+    '· Travel Enthusiast ·',
   ];
 
   const [index, setIndex] = React.useState(0);
