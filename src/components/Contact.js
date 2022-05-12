@@ -5,7 +5,7 @@ function Contact() {
     <section className='contact-wrapper' id='contact'>
       <h2>Contact</h2>
       <p>
-        Please feel free to check out my GitHub, LinkedIn or get in tough with
+        Please feel free to check out my GitHub, LinkedIn or get in touch with
         me for more information!
       </p>
       <div className='contact-icons'>

@@ -7,12 +7,12 @@ function About() {
 
       <div className='brand-statement'>
         <p>
-          After graduating with first className honours in Mechanical
-          Engineering, I worked at Jaguar Land Rover and developed my
-          engineering experience within the manufacturing industry. During this
-          time, I worked closely with the Software Development teams deploying
-          new technology into new cars. This built on my previous experience of
-          working with C++ at University.
+          After graduating with first class honours in Mechanical Engineering, I
+          worked at Jaguar Land Rover and developed my engineering experience
+          within the manufacturing industry. During this time, I worked closely
+          with the Software Development teams deploying new technology into new
+          cars. This built on my previous experience of working with C++ at
+          University.
         </p>
         <br />
         <p>

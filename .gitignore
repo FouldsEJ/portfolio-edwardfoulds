@@ -3,3 +3,6 @@ node_modules
 *.txt
 .env
 .sass-cache
+
+# Local Netlify folder
+.netlify
