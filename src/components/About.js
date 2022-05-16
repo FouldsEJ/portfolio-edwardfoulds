@@ -40,14 +40,14 @@ function About() {
           <i className='fa-solid fa-2xl fa-earth-americas'></i>
           <p>
             I love travelling and exploring new places. One of my adventures saw
-            me complete the Camino, a 500 mile walk across Northern Spain
+            me complete the Camino, a 500 mile walk across Northern Spain.
           </p>
         </div>
         <div className='interest'>
           <i className='fa-solid fa-2xl fa-music'></i>
           <p>
             I enjoy relaxing with music and play the Trumpet and Violin. I’ve
-            also recently started teaching myself the drums
+            also recently started teaching myself the drums.
           </p>
         </div>
       </div>

@@ -11,25 +11,50 @@ body {
   color: #f1faee;
 }
 
-section {
-  padding: 40px 0 0 0;
-}
-
 //Navbar
-.navbar-wrapper {
-  background-color: #1d3557;
-  a {
-    color: #f1faee;
-    text-decoration: none;
-  }
-}
+// .navbar-wrapper {
+//   background-color: #1d3557;
+//   a {
+//     color: #f1faee;
+//     text-decoration: none;
+//   }
+// }
 
-.navbar-items {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style-type: none;
+// .navbar-items {
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+//   list-style-type: none;
+//   height: 5vh;
+// }
+
+.navbar-section {
+  background-color: #f1faee;
   height: 5vh;
+
+  .navbar-titles {
+    width: 35%;
+    margin-left: auto;
+    margin-right: 40px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      background-color: #f1faee;
+      color: #1d3557;
+      // border: 1px solid #1d3557;
+      border-radius: 1.2rem;
+      padding: 10px;
+    }
+
+    a:hover {
+      background-color: #1d3557;
+      color: #f1faee;
+    }
+  }
 }
 
 //Hero
@@ -89,6 +114,7 @@ section {
 
 //About
 .about-section {
+  padding: 40px;
   h1 {
     text-align: center;
     font-size: 50px;
@@ -120,6 +146,7 @@ section {
 .skills-wrapper {
   background-color: #f1faee;
   color: #1d3557;
+  padding: 40px;
   h1 {
     text-align: center;
     font-size: 50px;
@@ -169,7 +196,7 @@ section {
 .project-card {
   margin: 30px;
   border: 2px solid #f1faee;
-  border-radius: 20px;
+  // border-radius: 20px;
   width: 520px;
   height: 300px;
   perspective: 1000px;
@@ -197,7 +224,7 @@ section {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: 20px;
+  // border-radius: 20px;
 }
 
 .project-front {
@@ -205,7 +232,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    // border-radius: 20px;
   }
 }
 
@@ -213,13 +240,34 @@ section {
   background-color: #a8dadc;
   color: #1d3557;
   transform: rotateY(180deg);
+  h2 {
+    margin: 10px;
+  }
+  .project-card-links {
+    margin: 10px;
+    a {
+      color: #1d3557;
+    }
+    .fa-link,
+    .fa-github {
+      padding: 5px;
+      font-size: 30px;
+    }
+  }
+  .project-card-skills {
+    margin-top: 10px;
+    i {
+      padding: 5px;
+      font-size: 25px;
+    }
+  }
 }
 
 //Experience
 
 .experience-wrapper {
   background-color: #f1faee;
-  padding-bottom: 40px;
+  padding: 40px;
   color: #1d3557;
   h1 {
     text-align: center;
@@ -234,14 +282,18 @@ section {
       color: #f1faee;
       padding: 20px;
       margin: 10px;
-      border: 2px solid black;
-      border-radius: 20px;
+      // border: 2px solid black;
+      // border-radius: 20px;
       width: 400px;
       height: 500px;
       .experience-card-header {
         display: flex;
         justify-content: center;
         align-items: center;
+        img {
+          height: 50px;
+          width: 50px;
+        }
         h2 {
           text-align: center;
           padding: 20px;
@@ -251,13 +303,14 @@ section {
       h3 {
         font-size: 16px;
         margin-top: 10px;
+        text-align: center;
       }
 
       ul {
         margin-top: 10px;
         li {
           padding: 5px;
-          font-size: 12px;
+          font-size: 14px;
         }
       }
     }
@@ -267,6 +320,11 @@ section {
 // Contact
 .contact-wrapper {
   text-align: center;
+  padding: 40px;
+  h2,
+  p {
+    margin-bottom: 15px;
+  }
   .contact-icons {
     display: flex;
     width: 30%;
@@ -281,4 +339,8 @@ section {
 // Footer
 .footer {
   text-align: center;
+  margin-top: 10px;
+  p {
+    padding: 3px;
+  }
 }

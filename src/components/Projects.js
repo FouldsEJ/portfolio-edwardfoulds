@@ -16,11 +16,23 @@ function Projects() {
               </div>
               <div className='project-back'>
                 <h2>SpikeSquad</h2>
-                <h4>Solo Project</h4>
-                <h4>Timeframe: 7days</h4>
+                <h4 className='group-size'>Solo Project</h4>
+                <h4 className='time-length'>Timeframe: 7days</h4>
                 <div className='project-card-links'>
-                  <i className='fa-solid fa-link'></i>
-                  <i className='fa-brands fa-github'></i>
+                  <a
+                    href='https://google.com'
+                    target='_blank'
+                    rel='noreferrer noopener'
+                  >
+                    <i className='fa-solid fa-link'></i>
+                  </a>
+                  <a
+                    href='https://github.com/FouldsEJ/ga-project-4-frontend'
+                    target='_blank'
+                    rel='noreferrer noopener'
+                  >
+                    <i className='fa-brands fa-github'></i>
+                  </a>
                 </div>
                 <p>
                   A full-stack app with a backend routed in Python, Django and
@@ -55,11 +67,23 @@ function Projects() {
               </div>
               <div className='project-back'>
                 <h2>Big Smoke</h2>
-                <h4>Group Project (3 People)</h4>
-                <h4>Timeframe: 7days</h4>
+                <h4 className='group-size'>Group Project (3 People)</h4>
+                <h4 className='time-length'>Timeframe: 7days</h4>
                 <div className='project-card-links'>
-                  <i className='fa-solid fa-link'></i>
-                  <i className='fa-brands fa-github'></i>
+                  <a
+                    href='https://google.com'
+                    target='_blank'
+                    rel='noreferrer noopener'
+                  >
+                    <i className='fa-solid fa-link'></i>
+                  </a>
+                  <a
+                    href='https://github.com/FouldsEJ/ga-project-3'
+                    target='_blank'
+                    rel='noreferrer noopener'
+                  >
+                    <i className='fa-brands fa-github'></i>
+                  </a>
                 </div>
                 <p>
                   A full-stack MERN app with CRUD functionality. Focussed on
@@ -95,11 +119,23 @@ function Projects() {
               </div>
               <div className='project-back'>
                 <h2>Great Night Out</h2>
-                <h4>Pair Project</h4>
-                <h4>Timeframe: 48hrs</h4>
+                <h4 className='group-size'>Pair Project</h4>
+                <h4 className='time-length'>Timeframe: 48hrs</h4>
                 <div className='project-card-links'>
-                  <i className='fa-solid fa-link'></i>
-                  <i className='fa-brands fa-github'></i>
+                  <a
+                    href='https://ga-project-2-great-night-out.netlify.app/'
+                    target='_blank'
+                    rel='noreferrer noopener'
+                  >
+                    <i className='fa-solid fa-link'></i>
+                  </a>
+                  <a
+                    href='https://github.com/FouldsEJ/ga-project-2'
+                    target='_blank'
+                    rel='noreferrer noopener'
+                  >
+                    <i className='fa-brands fa-github'></i>
+                  </a>
                 </div>
                 <p>
                   In two days we built a React app which used an external API.
@@ -130,11 +166,23 @@ function Projects() {
               </div>
               <div className='project-back'>
                 <h2>Maze Madness</h2>
-                <h4>Solo Project</h4>
-                <h4>Timeframe: 5days</h4>
+                <h4 className='group-size'>Solo Project</h4>
+                <h4 className='time-length'>Timeframe: 5days</h4>
                 <div className='project-card-links'>
-                  <i className='fa-solid fa-link'></i>
-                  <i className='fa-brands fa-github'></i>
+                  <a
+                    href='https://fouldsej.github.io/ga-project-1/'
+                    target='_blank'
+                    rel='noreferrer noopener'
+                  >
+                    <i className='fa-solid fa-link'></i>
+                  </a>
+                  <a
+                    href='https://github.com/FouldsEJ/ga-project-1'
+                    target='_blank'
+                    rel='noreferrer noopener'
+                  >
+                    <i className='fa-brands fa-github'></i>
+                  </a>
                 </div>
                 <p>
                   A grid-based game built with Vanilla JavaScript, HTML and CSS.
