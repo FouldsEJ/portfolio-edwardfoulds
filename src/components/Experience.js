@@ -62,7 +62,7 @@ function Experience() {
             <li>
               Received exceptional reviews from parents and students alike,
               praising my dedication to helping students improve and my ability
-              to be able to make complex subjects easier to understand
+              to make complex subjects easier to understand
             </li>
           </ul>
         </div>

@@ -88,7 +88,7 @@ function Projects() {
                 <p>
                   A full-stack MERN app with CRUD functionality. Focussed on
                   introducing new and popular locations in London to the user.
-                  As a group we worked full-stack. I focussed on the
+                  As a group, we worked full-stack. I focussed on the
                   multi-search/filter tool on the site, as well as building
                   relationships between users with ‘like’ and ‘add to itinerary’
                   functionality.
@@ -138,7 +138,7 @@ function Projects() {
                   </a>
                 </div>
                 <p>
-                  In two days we built a React app which used an external API.
+                  In two days, we built a React app which used an external API.
                   Functionality included searching for events and displaying
                   event locations on a map. The project was invaluable in terms
                   of learning to pair-code and using version control with

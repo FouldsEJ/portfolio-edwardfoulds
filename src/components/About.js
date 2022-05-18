@@ -40,7 +40,8 @@ function About() {
           <i className='fa-solid fa-2xl fa-earth-americas'></i>
           <p>
             I love travelling and exploring new places. One of my adventures saw
-            me complete the Camino, a 500 mile walk across Northern Spain.
+            me complete the Camino de Santiago, a 500 mile walk across Northern
+            Spain.
           </p>
         </div>
         <div className='interest'>
