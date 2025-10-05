@@ -16,22 +16,31 @@ function Hero() {
       () => setIndex((index) => index + 1),
       3000 // every 3 seconds
     );
-    return () => clearTimeout(intervalId);
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
     <section className='hero-section'>
       <div className='contact-icons-hero'>
-        <a href='https://github.com/FouldsEJ'>
+        <a
+          href='https://github.com/FouldsEJ'
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label='GitHub profile'
+          title='GitHub'
+        >
           <i className='fa-brands fa-3x fa-github'></i>
         </a>
         <a
-          href='https://linkedin.com/in/edwardfoulds
-'
+          href='https://linkedin.com/in/edwardfoulds'
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label='LinkedIn profile'
+          title='LinkedIn'
         >
           <i className='fa-brands fa-3x fa-linkedin'></i>
         </a>
-        <a href='mailto:edward.j.foulds@gmail.com'>
+        <a href='mailto:edward.j.foulds@gmail.com' aria-label='Send email' title='Email'>
           <i className='fa-solid  fa-3x fa-envelope'></i>
         </a>
       </div>
@@ -58,3 +67,4 @@ function Hero() {
 }
 
 export default Hero;
+
