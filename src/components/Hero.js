@@ -44,7 +44,7 @@ function Hero() {
         <div className='hero-text'>
           <p className='hero-intro'>Hi, I&#39;m</p>
           <h1 className='name-title'>Edward Foulds</h1>
-          <h2 className='role-title'>Junior Software Engineer</h2>
+          <h2 className='role-title'>Senior Software Engineer</h2>
           <h3>
             <TextTransition
               text={texts[index % texts.length]}
