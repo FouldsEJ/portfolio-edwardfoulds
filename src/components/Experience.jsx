@@ -6,13 +6,84 @@ function Experience() {
       <h1>Experience</h1>
 
       <div className='experience-display-flex'>
+        {/* 1. VML */}
+        <div className='experience-card'>
+          <div className='experience-card-header'>
+            <img src='https://res.cloudinary.com/efoulds24/image/upload/v1759699957/logotipo-vml-agencia_fto3nt.jpg' alt='VML' />
+            <h2>VML Enterprise Solutions</h2>
+          </div>
+          <h3>Sep 2022 - Present</h3>
+          <h3>
+            Designed and built full‑stack applications in agile teams, spanning
+            frontend, backend, and authentication layers, for international
+            clients and internal platforms.
+          </h3>
+          <ul>
+            <li>
+              Developed and maintained web applications using React, Next.js,
+              Vue.js, TypeScript and Node, adapting quickly to new frameworks.
+            </li>
+            <li>
+              Built a training platform from the ground up using an Nx
+              Monorepo, MongoDB, Storybook and Contentful; implemented secure
+              authentication and authorisation with OIDC.
+            </li>
+            <li>
+              Architected and delivered a Backend‑for‑Frontend (BFF) layer,
+              introducing flexible authentication flows and API orchestration to
+              simplify integration with multiple backend services.
+            </li>
+            <li>
+              Contributed to an AI‑powered Ad Editor platform focused on
+              pixel‑perfect rendering, real‑time interactivity and WYSIWYG‑style
+              editing features.
+            </li>
+            <li>
+              Collaborated in agile, interdisciplinary teams on global‑scale
+              projects, applying best practices in accessibility, performance
+              optimisation and maintainable code design.
+            </li>
+          </ul>
+        </div>
+
+        {/* 2. GA – Teaching Assistant */}
         <div className='experience-card'>
           <div className='experience-card-header'>
             <img
               src='https://res.cloudinary.com/efoulds24/image/upload/v1652738832/ga-logo-3_bgmoxb.png'
               alt='General Assembly'
             />
-            <h2>General Assembly</h2>
+            <h2>General Assembly – Teaching Assistant</h2>
+          </div>
+          <h3>Jul 2022 - Nov 2022</h3>
+          <h3>
+            Supported students on the Frontend Web Development course, covering
+            HTML, CSS, JavaScript, and React.js.
+          </h3>
+          <ul>
+            <li>
+              Assisted with live coding sessions, debugging, and problem-solving
+              during workshops and labs.
+            </li>
+            <li>
+              Provided feedback and guidance on student projects, reinforcing
+              best practices in frontend engineering.
+            </li>
+            <li>
+              Collaborated with lead instructors to improve course delivery and
+              ensure a positive learning experience for all participants.
+            </li>
+          </ul>
+        </div>
+
+        {/* 3. GA – Student */}
+        <div className='experience-card'>
+          <div className='experience-card-header'>
+            <img
+              src='https://res.cloudinary.com/efoulds24/image/upload/v1652738832/ga-logo-3_bgmoxb.png'
+              alt='General Assembly'
+            />
+            <h2>General Assembly – Student</h2>
           </div>
           <h3>Jan 2022 - Apr 2022</h3>
           <h3>
@@ -37,6 +108,8 @@ function Experience() {
             </li>
           </ul>
         </div>
+
+        {/* 4. MyTutor */}
         <div className='experience-card'>
           <div className='experience-card-header'>
             <img
@@ -66,6 +139,8 @@ function Experience() {
             </li>
           </ul>
         </div>
+
+        {/* 5. Jaguar Land Rover */}
         <div className='experience-card'>
           <div className='experience-card-header'>
             <img

@@ -170,7 +170,7 @@ function Projects() {
                 <h4 className='time-length'>Timeframe: 5days</h4>
                 <div className='project-card-links'>
                   <a
-                    href='https://fouldsej.github.io/ga-project-1/'
+                    href='https://fouldsej.github.io/ga-project-1---MazeMadness/'
                     target='_blank'
                     rel='noreferrer noopener'
                   >
